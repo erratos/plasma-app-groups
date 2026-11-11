@@ -574,7 +574,7 @@ PlasmoidItem {
                         columnSpacing: Kirigami.Units.largeSpacing
 
                         Kirigami.Icon {
-                            Layout.alignment: root.listMode ? Qt.AlignVCenter : Qt.AlignHCenter
+                            Layout.alignment: root.listMode ? Qt.AlignVCenter : Qt.AlignHCenter | Qt.AlignTop
                             Layout.preferredWidth: full.iconSize
                             Layout.preferredHeight: full.iconSize
                             source: cell.model.decoration
@@ -605,6 +605,13 @@ PlasmoidItem {
                                 maximumLineCount: 1
                                 opacity: 0.7
                                 font: Kirigami.Theme.smallFont
+                            }
+
+                            // Grid layout: takes the leftover height, so icons and names stay at the
+                            // top of the cell whether the name spans one or two lines.
+                            Item {
+                                visible: !root.listMode
+                                Layout.fillHeight: true
                             }
                         }
                     }
