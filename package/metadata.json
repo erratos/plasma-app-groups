@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "erratos"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "A panel icon that opens a small group of apps",
+        "Description[fr]": "Une icône dans la barre qui ouvre un petit groupe d'applis",
+        "EnabledByDefault": true,
+        "Icon": "view-app-grid-symbolic",
+        "Id": "io.github.erratos.appgroups",
+        "License": "GPL-3.0-or-later",
+        "Name": "App Group",
+        "Name[fr]": "Groupe d'applis",
+        "Version": "1.0.0",
+        "Website": "https://github.com/erratos/plasma-app-groups"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-app-groups\n"
+"Report-Msgid-Bugs-To: https://github.com/erratos/plasma-app-groups/issues\n"
+"POT-Creation-Date: 2026-11-11 09:28+0100\n"
+"PO-Revision-Date: 2026-11-11 12:00+0100\n"
+"Last-Translator: erratos\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/config/config.qml:5
+msgid "General"
+msgstr "Général"
+
+#: package/contents/config/config.qml:10
+msgid "Appearance"
+msgstr "Apparence"
+
+#: package/contents/ui/configAppearance.qml:27
+msgid "Layout:"
+msgstr "Présentation :"
+
+#: package/contents/ui/configAppearance.qml:28
+msgid "Grid (icon above the name)"
+msgstr "Grille (icône au-dessus du nom)"
+
+#: package/contents/ui/configAppearance.qml:34
+msgid "List (icon left of the name)"
+msgstr "Liste (icône à gauche du nom)"
+
+#: package/contents/ui/configAppearance.qml:41
+msgid "Icon size:"
+msgstr "Taille des icônes :"
+
+#: package/contents/ui/configAppearance.qml:45
+msgid "Small (16 px)"
+msgstr "Petite (16 px)"
+
+#: package/contents/ui/configAppearance.qml:46
+msgid "Small-medium (22 px)"
+msgstr "Petite-moyenne (22 px)"
+
+#: package/contents/ui/configAppearance.qml:47
+msgid "Medium (32 px)"
+msgstr "Moyenne (32 px)"
+
+#: package/contents/ui/configAppearance.qml:48
+msgid "Large (48 px)"
+msgstr "Grande (48 px)"
+
+#: package/contents/ui/configAppearance.qml:49
+msgid "Huge (64 px)"
+msgstr "Très grande (64 px)"
+
+#: package/contents/ui/configAppearance.qml:50
+msgid "Enormous (96 px)"
+msgstr "Énorme (96 px)"
+
+#: package/contents/ui/configAppearance.qml:61
+msgid "Columns:"
+msgstr "Colonnes :"
+
+#: package/contents/ui/configAppearance.qml:68
+msgid "Visible rows at most:"
+msgstr "Lignes visibles au plus :"
+
+#: package/contents/ui/configAppearance.qml:79
+msgid "Show:"
+msgstr "Afficher :"
+
+#: package/contents/ui/configAppearance.qml:80
+msgid "App names"
+msgstr "Le nom des applis"
+
+#: package/contents/ui/configAppearance.qml:85
+msgid "Description, below the name"
+msgstr "La description, sous le nom"
+
+#: package/contents/ui/configAppearance.qml:85
+msgid "Description, as a tooltip"
+msgstr "La description, en bulle au survol"
+
+#: package/contents/ui/configAppearance.qml:89
+msgid "Title at the top of the popup"
+msgstr "Le titre en haut de la fenêtre"
+
+#: package/contents/ui/configAppearance.qml:93
+msgid "A search field (type right after opening)"
+msgstr "Un champ de recherche (on peut taper dès l'ouverture)"
+
+#: package/contents/ui/configAppearance.qml:102
+msgid "Behavior:"
+msgstr "Comportement :"
+
+#: package/contents/ui/configAppearance.qml:103
+msgid "Close the popup after launching an app"
+msgstr "Fermer la fenêtre après avoir lancé une appli"
+
+#: package/contents/ui/configGeneral.qml:34
+msgid "Title:"
+msgstr "Titre :"
+
+#: package/contents/ui/configGeneral.qml:35
+msgid "e.g. Messaging"
+msgstr "Ex. Messageries"
+
+#: package/contents/ui/configGeneral.qml:39
+msgid "Icon:"
+msgstr "Icône :"
+
+#: package/contents/ui/configGeneral.qml:59
+msgid "In the panel:"
+msgstr "Dans la barre :"
+
+#: package/contents/ui/configGeneral.qml:60
+msgid "The chosen icon"
+msgstr "L'icône choisie"
+
+#: package/contents/ui/configGeneral.qml:66
+msgid "A 2×2 tile with the first 4 apps"
+msgstr "Une tuile 2×2 avec les 4 premières applis"
+
+#: package/contents/ui/configGeneral.qml:74
+msgid "The first apps side by side:"
+msgstr "Les premières applis côte à côte :"
+
+#: package/contents/ui/configGeneral.qml:93
+msgid "Apps:"
+msgstr "Applis :"
+
+#: package/contents/ui/configGeneral.qml:94
+msgid ".desktop links in a folder"
+msgstr "Liens .desktop d'un dossier"
+
+#: package/contents/ui/configGeneral.qml:105
+msgid "<title>"
+msgstr "<titre>"
+
+#: package/contents/ui/configGeneral.qml:110
+#: package/contents/ui/configGeneral.qml:151
+msgid "Choose…"
+msgstr "Choisir…"
+
+#: package/contents/ui/configGeneral.qml:120
+msgid "Alphabetical order"
+msgstr "Ordre alphabétique"
+
+#: package/contents/ui/configGeneral.qml:121
+msgid "Manual order (drag apps in the popup)"
+msgstr "Ordre manuel (glisser les applis dans la fenêtre)"
+
+#: package/contents/ui/configGeneral.qml:133
+msgid ""
+"Empty: the folder named after the widget title, in ~/.local/share/app-"
+"groups/."
+msgstr ""
+"Vide : le dossier qui porte le titre du widget, dans ~/.local/share/app-"
+"groups/."
+
+#: package/contents/ui/configGeneral.qml:139
+msgid "A category of the application menu"
+msgstr "Catégorie du menu des applications"
+
+#: package/contents/ui/configGeneral.qml:169
+msgid "Application menu favorites"
+msgstr "Favoris du menu des applications"
+
+#: package/contents/ui/main.qml:151
+msgid "Open group folder"
+msgstr "Ouvrir le dossier du groupe"
+
+#: package/contents/ui/main.qml:157
+msgid "Sort alphabetically"
+msgstr "Revenir à l'ordre alphabétique"
+
+#: package/contents/ui/main.qml:377 package/contents/ui/main.qml:385
+msgid "Remove from menu favorites"
+msgstr "Retirer des favoris du menu"
+
+#: package/contents/ui/main.qml:380
+msgid "Add to menu favorites"
+msgstr "Ajouter aux favoris du menu"
+
+#: package/contents/ui/main.qml:388
+msgid "Remove from group (to trash)"
+msgstr "Retirer du groupe (corbeille)"
+
+#: package/contents/ui/main.qml:631
+msgid "No results"
+msgstr "Aucun résultat"
+
+#: package/contents/ui/main.qml:632
+msgid "Category not found"
+msgstr "Catégorie introuvable"
+
+#: package/contents/ui/main.qml:633
+msgid "No apps in this group"
+msgstr "Aucune appli dans ce groupe"
+
+#: package/contents/ui/main.qml:639
+msgid "Add favorites from the application menu, or drag apps here."
+msgstr ""
+"Ajoutez des favoris depuis le menu des applications, ou glissez des applis "
+"ici."
+
+#: package/contents/ui/main.qml:642
+msgid "Choose a category in the widget settings."
+msgstr "Choisissez une catégorie dans les réglages du widget."
+
+#: package/contents/ui/main.qml:644
+msgid "Drag apps here from the application menu, or put .desktop links in %1"
+msgstr ""
+"Glissez des applis ici depuis le menu des applications, ou placez des "
+"liens .desktop dans %1"

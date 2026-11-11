@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!-- "folder": .desktop links in a folder; "menuFavorites": application menu favorites;
+         "menuCategory": one category of the application menu -->
+    <entry name="source" type="String">
+      <default>folder</default>
+    </entry>
+    <!-- Absolute path (or starting with ~); empty = ~/.local/share/app-groups/<title> -->
+    <entry name="folder" type="String">
+      <default></default>
+    </entry>
+    <!-- Display name of the menu category (e.g. "Internet") -->
+    <entry name="category" type="String">
+      <default></default>
+    </entry>
+    <entry name="icon" type="String">
+      <default>view-app-grid-symbolic</default>
+    </entry>
+    <entry name="title" type="String">
+      <default>Apps</default>
+    </entry>
+    <!-- Panel icon: "icon" (chosen icon), "composite" (2×2 tile of the first 4 apps)
+         or "row" (the first apps side by side) -->
+    <entry name="iconStyle" type="String">
+      <default>icon</default>
+    </entry>
+    <entry name="rowIconCount" type="Int">
+      <default>3</default>
+      <min>1</min>
+      <max>8</max>
+    </entry>
+    <!-- Folder group: "alpha" (by name) or "manual" (order of the `order` list) -->
+    <entry name="sortMode" type="String">
+      <default>alpha</default>
+    </entry>
+    <entry name="order" type="StringList">
+      <default></default>
+    </entry>
+  </group>
+
+  <group name="Appearance">
+    <!-- "grid": icon above the name; "list": one app per line -->
+    <entry name="displayMode" type="String">
+      <default>grid</default>
+    </entry>
+    <entry name="columns" type="Int">
+      <default>4</default>
+      <min>1</min>
+      <max>12</max>
+    </entry>
+    <!-- Icon size in the popup, in pixels -->
+    <entry name="iconSize" type="Int">
+      <default>48</default>
+    </entry>
+    <!-- Maximum number of visible rows before scrolling -->
+    <entry name="maxRows" type="Int">
+      <default>6</default>
+      <min>1</min>
+      <max>20</max>
+    </entry>
+    <entry name="showLabels" type="Bool">
+      <default>true</default>
+    </entry>
+    <!-- App description: tooltip in grid layout, subtitle in list layout -->
+    <entry name="showDescriptions" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showHeading" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showSearch" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="closeOnLaunch" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>
